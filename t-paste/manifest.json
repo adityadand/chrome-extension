@@ -1,0 +1,16 @@
+{
+    "name": "t-paste",
+    "version": "1.0",
+    "description": "temporary paste it lets you paste content for temporary usage",
+    "manifest_version": 2,
+    "browser_action": 
+   { 
+  	"default_popup": "popup.html"
+   },
+
+   "permissions": [
+   	"tabs",
+   	"storage"
+   ]
+
+}
