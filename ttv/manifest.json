@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "ttv",
     "version": "1.0",
@@ -20,4 +21,28 @@
    "permissions":[
    	"tabs"
    ] 
+=======
+{
+    "name": "ttv",
+    "version": "1.0",
+    "description": "simple text to speech",
+    "manifest_version": 2, 
+
+     "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ],
+    
+    "browser_action": 
+   { 
+   	"default_icon": "ttv.png",
+  	"default_popup": "popup.html"
+   },
+
+   "permissions":[
+   	"tabs"
+   ] 
+>>>>>>> a773d2439ffc6dfe7bfa535a6b8bf5767d9854dc
 }

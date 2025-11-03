@@ -1,0 +1,37 @@
+{
+  "name": "da-editor",
+  "version": "2.0",
+  "description": "edit any webpage anytime",
+  "manifest_version": 3,
+  
+  "action": {
+    "default_icon": "off.png",
+    "default_title": "icon"
+  },
+  
+  "icons": {
+    "16": "off.png",
+    "32": "off.png",
+    "48": "on.png",
+    "128": "on.png"
+  },
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js", "stop.js"]
+  }]
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "opad",
     "version": "1.0",
@@ -9,4 +10,17 @@
   	"default_popup": "popup.html" 
    } 
 
+=======
+{
+    "name": "opad",
+    "version": "1.0",
+    "description": "simple browser notepad",
+    "manifest_version": 2, 
+    
+    "browser_action": 
+   { 
+  	"default_popup": "popup.html" 
+   } 
+
+>>>>>>> a773d2439ffc6dfe7bfa535a6b8bf5767d9854dc
 }

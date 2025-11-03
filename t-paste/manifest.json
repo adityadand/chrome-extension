@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "t-paste",
     "version": "1.0",
@@ -13,4 +14,21 @@
    	"storage"
    ]
 
+=======
+{
+    "name": "t-paste",
+    "version": "1.0",
+    "description": "temporary paste it lets you paste content for temporary usage",
+    "manifest_version": 2,
+    "browser_action": 
+   { 
+  	"default_popup": "popup.html"
+   },
+
+   "permissions": [
+   	"tabs",
+   	"storage"
+   ]
+
+>>>>>>> a773d2439ffc6dfe7bfa535a6b8bf5767d9854dc
 }
