@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "alerter",
+  "version": "2.0",
+  "description": "Allows the user to input text and get an alert message of the text they typed.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_title": "Text Input Extension",
+    "default_popup": "popup.html"
+  }
+}
